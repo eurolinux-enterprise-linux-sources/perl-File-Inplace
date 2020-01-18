@@ -1,6 +1,6 @@
 Name:           perl-File-Inplace
 Version:        0.20
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Perl module for in-place editing of files
 License:        (GPL+ or Artistic)
 Group:          Development/Libraries
@@ -48,6 +48,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
